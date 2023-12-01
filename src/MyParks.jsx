@@ -13,7 +13,7 @@ export function MyParks () {
   const [ directions ] = useState ({})
 
   const getMyParks = () => {
-    axios.get('http://localhost:3000/parks_lists.json').then((response) => {
+    axios.get('https://park-camping-api.onrender.com/parks_lists.json').then((response) => {
       console.log(response.data); 
       setMyParks(response.data); 
     })
@@ -23,7 +23,7 @@ export function MyParks () {
   };
 
   const destroyPark = (id) => {
-    axios.delete(`http://localhost:3000/parks_lists/${id}.json`).then(response => {
+    axios.delete(`https://park-camping-api.onrender.com/parks_lists/${id}.json`).then(response => {
       console.log(response.data);
       setDestroyParks([...destoryParks, response.data])
     })
