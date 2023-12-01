@@ -1,0 +1,138 @@
+.content-page {
+  min-height: 100%;
+  background: url("https://www.redwoodhikes.com/DelNorte/MillCreekCG1.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.content-page::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.4);
+  z-index: 0;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+div div h1 {
+  font-size: 140px;
+  letter-spacing: -4px;
+  text-align: left;
+}
+
+.title {
+  padding: 20px 0px;
+  position: relative;
+  top: 60px;
+  margin-left: 240px;
+}
+
+.col-2 {
+  position: relative;
+  right: 300px;
+  bottom: 105px;
+}
+
+.yosemite {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px 0px;
+}
+
+.yose-description {
+  position: relative;
+  left: 380px;
+  top: 12px;
+}
+
+.yose-image {
+  position: relative;
+  left: 400px;
+}
+
+.yose {
+  color: white;
+  font-size: 50px;
+  position: relative;
+  left: 180px;
+  bottom: 10px;
+  letter-spacing: 6px;
+}
+
+.yellowstone {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px 0px;
+  margin: 20px 0px;
+}
+
+.yellow-description {
+  position: relative;
+  right: 210px;
+  top: 12px;
+}
+
+.yellow {
+  color: white;
+  font-size: 50px;
+  position: relative;
+  left: 170px;
+  bottom: 12px;
+  letter-spacing: 6px;
+}
+
+.olympic {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px 0px;
+}
+
+.olympic-image {
+  position: relative;
+  left: 400px;
+}
+
+.description {
+  color: white;
+  font-size: 20px;
+  text-align: right;
+  line-height: 35px;
+}
+
+.description-2 {
+  color: white;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.national1 {
+  position: absolute;
+  left: 10px;
+  top: 70px;
+  font-size: 200px;
+  letter-spacing: 20px;
+  color: rgb(26, 26, 27);
+}
+
+.national2 {
+  position: absolute;
+  left: 10px;
+  top: 300px;
+  font-size: 200px;
+  letter-spacing: 20px;
+  color: rgb(26, 26, 27);
+}
+
+.national3 {
+  position: absolute;
+  left: 10px;
+  bottom: 70px;
+  font-size: 200px;
+  letter-spacing: 20px;
+  color: rgb(26, 26, 27);
+}
