@@ -11,7 +11,7 @@ export function NationalParks() {
 
   const getParkData = () => {
     axios
-      .get('https://park-camping-api.onrender.com/parks.json')
+      .get('/parks.json')
       .then((response) => {
         console.log(response.data); 
         setCampings(response.data); 
@@ -22,7 +22,7 @@ export function NationalParks() {
 
   const handleCreatePark = (id) => {
     if (id !== 0) {
-      axios.post(`https://park-camping-api.onrender.com//parks_lists/${id}.json`).then(response => {
+      axios.post(`/parks_lists/${id}.json`).then(response => {
         console.log(response.data);
         setParks([...parks, response.data]);
       });

@@ -15,7 +15,7 @@ export function LogIn() {
     setErrors([]);
     const params = new FormData(event.target);
     axios
-      .post("https://park-camping-api.onrender.com/sessions.json", params)
+      .post("/sessions.json", params)
       .then((response) => {
         console.log(response.data);
         axios.defaults.headers.common["Authorization"] = "Bearer " + response.data.jwt;
