@@ -23,7 +23,7 @@
 }
 
 div div h1 {
-  font-size: 140px;
+  font-size: 110px;
   letter-spacing: -4px;
   text-align: left;
 }
@@ -59,7 +59,7 @@ div div h1 {
 
 .yose {
   color: white;
-  font-size: 50px;
+  font-size: 40px;
   position: relative;
   left: 180px;
   bottom: 10px;
@@ -80,7 +80,7 @@ div div h1 {
 
 .yellow {
   color: white;
-  font-size: 50px;
+  font-size: 40px;
   position: relative;
   left: 170px;
   bottom: 12px;
@@ -99,14 +99,14 @@ div div h1 {
 
 .description {
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   text-align: right;
   line-height: 35px;
 }
 
 .description-2 {
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 35px;
 }
 
