@@ -17,8 +17,6 @@
   z-index: 0;
 }
 
-
-
 .signup {
   margin: 0px 40px;
   text-align: center;
@@ -63,10 +61,10 @@
 
 .button {
   background-color: rgb(255, 255, 255);
-  width: 200px;
-  height: 40px;
-  font-size: 20px;
-  font-weight: 500;
+  width: 180px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 300;
   border: 1px solid rgb(255, 255, 255);
   border-radius: 5px;
 }

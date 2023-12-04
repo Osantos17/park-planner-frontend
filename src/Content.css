@@ -48,13 +48,13 @@ div div h1 {
 
 .yose-description {
   position: relative;
-  left: 380px;
+  left: 280px;
   top: 12px;
 }
 
 .yose-image {
   position: relative;
-  left: 400px;
+  left: 320px;
 }
 
 .yose {
@@ -74,7 +74,7 @@ div div h1 {
 
 .yellow-description {
   position: relative;
-  right: 210px;
+  right: 100px;
   top: 12px;
 }
 
@@ -87,6 +87,11 @@ div div h1 {
   letter-spacing: 6px;
 }
 
+.yellow-image {
+  position: relative;
+  left: 40px;
+}
+
 .olympic {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 20px 0px;
@@ -94,19 +99,19 @@ div div h1 {
 
 .olympic-image {
   position: relative;
-  left: 400px;
+  left: 320px;
 }
 
 .description {
   color: white;
-  font-size: 16px;
+  font-size: 12px;
   text-align: right;
   line-height: 35px;
 }
 
 .description-2 {
   color: white;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 35px;
 }
 

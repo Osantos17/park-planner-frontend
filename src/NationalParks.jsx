@@ -91,7 +91,7 @@ export function NationalParks() {
                       </div>
                       <div className="col">
                         <div className="parkinfo">
-                          <span><h5>Description</h5>{park.description}</span>
+                          <span><h5>Description</h5><div className='descriptionInfo'>{park.description}</div></span>
                         </div>
                       </div>
                     </div>

@@ -23,7 +23,7 @@ export function Content() {
             </div>
             <div className="col">
               <div className="yose-image">
-                <img src="https://cdn.aarp.net/content/dam/aarp/travel/destinations/2020/09/1140-yosemite-hero.imgcache.rev.web.1914.1100.jpg" width="350" height="200" alt="Yosemite" />
+                <img src="https://cdn.aarp.net/content/dam/aarp/travel/destinations/2020/09/1140-yosemite-hero.imgcache.rev.web.1914.1100.jpg" width="300" height="150" alt="Yosemite" />
               </div>
             </div>
             <div className="col">
@@ -38,7 +38,7 @@ export function Content() {
             </div>
             <div className="col">
               <div className="yellow-image">
-                <img src="https://national-park.com/wp-content/uploads/2016/04/Welcome-to-Yellowstone-National-Park.jpg" width="350" height="200" alt="Yellowstone" />
+                <img src="https://national-park.com/wp-content/uploads/2016/04/Welcome-to-Yellowstone-National-Park.jpg" width="300" height="150" alt="Yellowstone" />
               </div>
             </div>
             <div className="col">
@@ -57,7 +57,7 @@ export function Content() {
             </div>
             <div className="col">
               <div className="olympic-image">
-                <img src="https://s27363.pcdn.co/wp-content/uploads/2021/02/Hurricane-Ridge-Olympic-NP.jpg.optimal.jpg" width="350" height="200" alt="Olympic" />
+                <img src="https://s27363.pcdn.co/wp-content/uploads/2021/02/Hurricane-Ridge-Olympic-NP.jpg.optimal.jpg" width="300" height="150" alt="Olympic" />
               </div>
             </div>
             <div className="col">

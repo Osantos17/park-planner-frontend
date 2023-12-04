@@ -20,6 +20,7 @@
 
 .nationalp {
   padding-bottom: 40px;
+  font-size: 80px;
 }
 
 .myparks {
@@ -35,7 +36,7 @@ hr {
 }
 
 .mylistname {
-  font-size: 50px;
+  font-size: 35px;
   padding-bottom: 20px;
   padding-top: 40px;
   text-align: center;
@@ -44,17 +45,17 @@ hr {
 
 #map-container {
   position: relative;
-  right: 150px;
+  right: 100px;
 }
 
 .list {
   margin-left: 20px;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .mymaps {
-  margin-left: 170px;
-  width: 580px;
+  margin-left: 140px;
+  width: 500px;
   height: 700px;
   background-color: rgba(200, 200, 200, 0.703);
 }
@@ -64,7 +65,7 @@ hr {
 }
 
 .list-info {
-  font-size: 18px;
+  font-size: 14px;
   margin-left: 50px;
   padding-top: 5px;
 }
@@ -76,5 +77,9 @@ hr {
 }
 
 .remove {
+  font-size: 10px;
+}
+
+.descriptionInfo {
   font-size: 12px;
 }
